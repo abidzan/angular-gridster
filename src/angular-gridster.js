@@ -8,7 +8,7 @@
 		define(['angular'], factory);
 	} else if (typeof exports === 'object') {
 		// CommonJS
-		module.exports = factory(require('angular'));
+		module.exports = factory(angular);
 	} else {
 		// Browser, nothing "exported". Only registered as a module with angular.
 		factory(root.angular);
